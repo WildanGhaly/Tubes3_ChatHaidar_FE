@@ -1,0 +1,46 @@
+.user-text-input {
+    position: fixed;
+    bottom: 55px;
+    left: 58%;
+    transform: translateX(-50%);
+    font-size: 20px;
+    padding: 10px;
+    border: 1px #282c34;
+    border-radius: 10px;
+    box-shadow: 10px 2px 5px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    max-width: 1000px;
+    background-color: #3d3e4b;
+    display: flex;
+    align-items: center;
+    transition: all 0.5s ease;
+}
+  
+.user-text-input input[type="text"] {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    width: 90%;
+    font-size: 20px;
+    padding: 10px;
+    color: #fff;
+}
+  
+.user-text-input button {
+    width: 10%;
+    height: 100%;
+    background-color: #202123;
+    color: #fff;
+    border: 1px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 10px;
+    padding: 10px 10px;
+    font-size: 20px;
+    transition: all 0.5s ease;
+}
+  
+.user-text-input button:hover {
+    background-color: #303f9f;
+}
+  

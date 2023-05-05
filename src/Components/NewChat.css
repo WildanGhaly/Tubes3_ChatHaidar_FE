@@ -1,0 +1,39 @@
+.NewChat {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 82.48%;
+    height: 80%;
+    padding-top: 20px;
+    align-items: center;
+    overflow-x: auto;
+    overflow-y: auto;
+    font: 16pt "Segoe UI";
+    color: aliceblue;
+}
+
+.my-buttons {
+    font-size: 14px;
+    padding: 20px;
+    background-color: #242a3877;
+    color: #fff;
+    border: 1px solid white;
+    border-radius: 12.5px;
+    cursor: auto;
+    margin: 0px 12.5px;
+    box-sizing: border-box;
+    width: 291px;
+    transition: all 0.5s ease;
+}
+
+.my-buttons:hover {
+    background-color: #303f9f;
+}
+
+.buttons-clicked {
+    background-color: #06c300;
+}
+
+.buttons-not-clicked {
+    background-color: #202123;
+}

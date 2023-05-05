@@ -1,0 +1,1 @@
+export const backendCaller = "https://chat-haidar-be.up.railway.app";

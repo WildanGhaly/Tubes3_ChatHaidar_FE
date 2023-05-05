@@ -1,0 +1,57 @@
+.sidebar {
+    width: 17.52%;
+    background-color: #202123;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    transform-origin: left top;
+    overflow-x: auto;
+    overflow-y: scroll;
+    transition: all 0.3s ease;
+}
+
+.sidebar-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    transform: scale(0.80);
+    transform-origin: top center;
+}
+
+.sidebar-footer::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 17.52%;
+    height: 30%;
+    background: linear-gradient(to top, #000000, transparent);
+  }
+
+.my-button {
+    font-size: 25px;
+    padding: 15px;
+    background-color: #202123;
+    color: #fff;
+    border: 1px solid white;
+    border-radius: 12.5px;
+    cursor: pointer;
+    margin: 12.5px;
+    box-sizing: border-box;
+    width: 291px;
+    transition: all 0.5s ease;
+}
+
+.my-button:hover {
+    background-color: #303f9f;
+}
+
+.button-clicked {
+    background-color: #06c300;
+}
+
+.button-not-clicked {
+    background-color: #202123;
+}
